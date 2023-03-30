@@ -104,12 +104,18 @@ section > img {
     main {
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 85%;
         height: 100vh;
+        padding: 1rem;
     }
 
     body {
         background-image: none;
+    }
+
+    .case {
+        width: 90%;
+        
     }
 
     .right {
