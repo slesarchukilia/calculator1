@@ -81,7 +81,7 @@ section > img {
  @media screen and (max-width:64em) { 
     main {
         /* min-height: 100vh; */
-        width: 80%;
+        width: 75%;
     }
 
     .right {
@@ -104,9 +104,10 @@ section > img {
     main {
         justify-content: center;
         align-items: center;
-        width: 85%;
-        height: 100vh;
-        padding: 1rem;
+        width: 75%;
+        max-height: fit-content;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     body {
@@ -114,7 +115,7 @@ section > img {
     }
 
     .case {
-        width: 90%;
+        width: 95%;
         
     }
 
